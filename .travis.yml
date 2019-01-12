@@ -1,2 +1,8 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key: e4546da4-6124-4bb2-9e1a-f74815273ec4
+  app: blooming-gorge-65171.herokuapp.com
+  on:
+    repo: walt24/travis-ci-test
